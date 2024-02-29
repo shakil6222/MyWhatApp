@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Search_itom_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#007C5858"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/backPressSearch_ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/backaero_searchingin_24"
+                app:tint="@color/material_dynamic_neutral10" />
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="3dp" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#C6BEBE"
+                android:text="Unread"
+                app:icon="@drawable/camera_icon" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/openGallery_Button"
+                android:backgroundTint="#979595"
+                android:text="@string/photos"
+                app:icon="@drawable/gallery_24" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="Videos"
+                app:icon="@drawable/videocam_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="Links" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="GIFs" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="Audio"
+                app:icon="@drawable/headset_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="Documents" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#979595"
+                android:text="Polls" />
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:src="@drawable/camera_icon"-->
+<!--        android:id="@+id/setGallery_ImageView"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:layout_height="350dp"/>-->
+
+
+</RelativeLayout>

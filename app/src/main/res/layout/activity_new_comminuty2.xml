@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".new_comminuty2">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/clearCross_imageView"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/clear_image_24"
+            android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/comminutysecontpageimage"
+        android:layout_height="300dp"
+        />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Creat a new community"
+        android:layout_gravity="center"
+        android:textColor="#686363"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+       android:text="Bring together neighborhood,school
+or more. Creat topic_based groups for
+members,and easily send them admin"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="announcements"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#303F9F"
+        android:text="See example communities >"
+        android:textSize="20sp"
+        android:id="@+id/textSeeExampleComminuty_TextView"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Gte starrted"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

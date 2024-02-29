@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NewContact_LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/backaero_searchingin_24"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Create New Contact"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@drawable/new_folder_24"
+            android:layout_marginLeft="80dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#BFBEBE"
+        app:cardCornerRadius="50dp"
+       android:layout_marginTop="20dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:src="@drawable/baseline_camera_alt_24"
+            android:layout_gravity="center"
+            android:id="@+id/takePhotoNewConActi_image"
+            android:layout_height="40dp"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#7792D195"
+        android:layout_marginTop="20dp"
+        android:text="Scane QR Code"
+        android:layout_height="50dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:id="@+id/contact_spineer"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
